@@ -5,6 +5,7 @@
     padding: 0;
 }
 body{
+    overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -27,6 +28,7 @@ header{
     border-radius: 100%;
 }
 h1{
+    font-size: 2em;
     font-weight: 900;
     padding: 20px 0px;
     text-transform: uppercase;  
@@ -36,9 +38,9 @@ h1{
 }
 .banner-content > p{
     color: white;
-    width: 510px;
+    max-width: 500px;
     height: 46px;
-    font-size: 20px;
+    font-size: 18px;
     margin: auto;   
 }
 button{
@@ -59,7 +61,7 @@ button:hover{
 #course-content{
     border-top: 3px solid #33A8DB;
     width: 100%;
-    height: 470px;
+    height: 500px;
     background-color: #000000;
 }
 #course-content > h2{
@@ -71,7 +73,7 @@ button:hover{
 }
 #course-content > p {
     color: white;
-    width: 750px;
+    max-width: 750px;
     text-align: center;
     margin: auto;
     padding: 20px 0px;
@@ -85,7 +87,7 @@ button:hover{
 .module{
     padding: 20px;
     background-color:#252525;
-    margin: 10px;
+    margin: 15px;
     border-radius: 30px;
     border: 2px solid #33A8DB;
 }
@@ -139,14 +141,20 @@ span{
     text-align: center;
     padding: 50px 0px;
 }
-#professional-challenges > img {
-   margin: auto;
-   display: block;
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    max-width: 700px;
+}
+.img > img {
+    width: 100%;
 }
 #professional-challenges > p{
     color: white;
     text-align: center;
-    width: 750px;
+    max-width: 750px;
     margin: auto;
     padding: 50px 0px;
 }
