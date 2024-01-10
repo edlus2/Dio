@@ -33,7 +33,7 @@ console.log(edgar);
 edgar.descreve();
 */
 
-class pessoa{
+class Pessoa{
     nome;
     idade;
 }
@@ -48,11 +48,11 @@ function comparar(p1,p2){
     )
 }
 
-const edgar = new pessoa();
+const edgar = new Pessoa();
 edgar.nome = 'edgar';
 edgar.idade = 27;
 
-const ludimila = new pessoa();
+const ludimila = new Pessoa();
 ludimila.nome = 'ludimila';
 ludimila.idade = 25;
 
