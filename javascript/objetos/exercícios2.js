@@ -33,5 +33,5 @@ class Pessoa{
 const edgar = new Pessoa('edgar',83 ,1.78);
 console.log(edgar, 'IMC:',edgar.calculoImc().toFixed(2),edgar.classificaimc());
 
-const jose = new Pessoa('jose',70,1.75);
-console.log(jose,'IMC:',jose.calculoImc().toFixed(2),jose.classificaimc());
+const joser = new Pessoa('joser',70,1.75);
+console.log(joser,'IMC:',joser.calculoImc().toFixed(2),joser.classificaimc());
