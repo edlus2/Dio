@@ -1,0 +1,14 @@
+@charset "Utf-8";
+
+@font-face {
+    font-family: pokemon;
+    src: url(../font/Pokemon\ Classic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ h1{
+    font-family: pokemon;
+ }
