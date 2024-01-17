@@ -59,7 +59,3 @@ console.log(x.nome)//forma de chama algo especifico
 console.log(x['nome'])//forma de chama algo especifico
 
 */
-let x = 10;
-    x = 'Que texto bonito';
-
-    console.log(x);
