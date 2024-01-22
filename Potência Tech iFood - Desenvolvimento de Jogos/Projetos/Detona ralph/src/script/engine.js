@@ -3,7 +3,7 @@ const state = {
     view : {
         squares: document.querySelectorAll(".square"),
         enemy: document.querySelector(".enemy"),
-        timeleft: document.querySelector("#time.left"),
+        timeleft: document.querySelector("#time-left"),
         score: document.querySelector("#score"),
     },
     values: {
@@ -14,8 +14,8 @@ const state = {
         result : 0,
         correntTime:60,
         
-}}
-;
+    }
+};
 
 function countDown() {
     state.values.correntTime--;
